@@ -4,8 +4,8 @@
 **
 **Return:Always 0(Success)
 */
-gcc, 6-size.c -m32 -o size32 2> /tmp/32
-gcc, 6-size.c -m64 -o size64 2> /tmp/64
+gcc (6-size.c -m32 -o size32 2)> /tmp/32
+gcc (6-size.c -m64 -o size64 2)> /tmp/64
 int main(void)
 {
 int a;
