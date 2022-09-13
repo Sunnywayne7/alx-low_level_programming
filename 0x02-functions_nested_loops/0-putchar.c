@@ -6,7 +6,7 @@
 *Description: A programm that returns _putchar
 *
 *
-Return: Always 0 (Success)
+Return: Always 0
 */
 int main(void)
 {
