@@ -6,5 +6,5 @@ printf("_putchar\n");
 }
 int main(){
 _putchar();
-}
 return (0);
+}
