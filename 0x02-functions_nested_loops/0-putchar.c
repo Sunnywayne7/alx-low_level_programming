@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include"main.h"
 /**
 *main - Entry point
 *
@@ -8,11 +8,14 @@
 *
 Return: Always 0 (Success)
 */
-void _putchar()
+int main(void)
 {
-printf("_putchar\n");
+char text[9] = "_putchar";
+int i;
+for (i=0; i<5; i++)
+{
+_putchar(text[i]);
 }
-int main(){
-_putchar();
+_putchar ('\n');
 return (0);
 }
