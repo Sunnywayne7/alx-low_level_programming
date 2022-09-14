@@ -8,10 +8,12 @@
 */
 void print_alphabet(void)
 {
-char c = 'a';
+char c;
+c = 'a';
 while(c <= 'z')
 {
 _putchcar(c);
+c++;
 }
 _putchar("\n");
 return (0);
