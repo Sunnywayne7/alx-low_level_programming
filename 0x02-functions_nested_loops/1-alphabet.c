@@ -16,5 +16,4 @@ _putchcar(c);
 c++;
 }
 _putchar("\n");
-return (0);
 }
