@@ -4,7 +4,7 @@
 *print_to_98 - print numbers n to 98
 *@n: integer argument
 */
-void print_to _print98(int n)
+void print_to_print98(int n)
 {
 while (n < 98)
 {
