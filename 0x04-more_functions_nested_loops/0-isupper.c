@@ -4,7 +4,7 @@ include "main.h"
 * @c: function argument i.e input parameter
 * Return: equals to 1 if alphabet character is uppercase otherwise 0;
 */
-int _isupper(int c)
+int _isupper (int c)
 {
 if (c >= 'A' && c <= 'Z')
 {
