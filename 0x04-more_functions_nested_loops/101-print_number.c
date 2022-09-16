@@ -8,19 +8,10 @@
 */
 void print_numeber(int n)
 {
-unsigned int n1 = 0;
-if (n < 0)
+int i = 1000000000;
+for (; i >= 1; i /= 10)
+if (m / i != 0)
 {
-n1 = -n;
-_putchar('_');
+_putchar((m / i) % 10 + '0');
 }
-else
-{
-n1 - n;
-}
-if (n1 / 10)
-{
-print number(n1 / 10);
-}
-_putchar((n1 % 10) + '0');
 }
