@@ -35,7 +35,7 @@ return (-1);
 * s: integer
 * Return: integer 1 or -1
 */
-int find_sign(char *str)
+int find_sign(char *s)
 {
 int negatives = 0, i = 0, sign = 1;
 while (i < (idx_num_starts(s)))
