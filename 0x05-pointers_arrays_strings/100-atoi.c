@@ -80,5 +80,5 @@ for (i = digit; i < (digit + digits_to_print); i++)/* calculate num */
 num += (s[i] - '0') * t;
 t /= 10;
 }
-return (num * sign);
+return (num *sign);
 }
