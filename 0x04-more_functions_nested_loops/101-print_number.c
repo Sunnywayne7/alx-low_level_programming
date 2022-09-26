@@ -4,15 +4,17 @@
 *@n: int type number
 *Description: can only use putchar to print
 */
-void print_numeber(int n)
+int main(void)
 {
-unsigned int num = n;
-if (n < 0)
+long int x = 612852475143;
+long int py;
+for (py = 2; py < x; py++)
 {
-_putchar('-');
-num = -num;
+if (x % py == 0)
+{
+x = x / py;
 }
-if ((num / 10) > 0)
-print_number(num / 10);
-_putchar((num % 10) + 48)
+}
+printf("%ld\n", py);
+return (0);
 }
