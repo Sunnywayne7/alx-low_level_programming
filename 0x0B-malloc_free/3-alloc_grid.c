@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-*
 **alloc_grid - function to allocate memory to grid
 * @width: int type
 * @height: int type
