@@ -31,7 +31,6 @@ dest[dest_len + a] = src[a];
 return (dest);
 }
 /**
-*
 *str_concat - function to allocate space for sting concatnation
 * @s1: array pointer to destination of string
 * @s2: array pointer to source of string
